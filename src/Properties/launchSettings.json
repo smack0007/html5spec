@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Html5Spec": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\Code\\html5spec"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html5Spec", "Html5Spec", "{EEA339DA-6B5E-0D4B-3255-BFEF95601890}"
+	ProjectSection(SolutionItems) = preProject
+		html5.idl = html5.idl
+		html5.spec = html5.spec
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Html5Spec", "src\Html5Spec.csproj", "{8A215C04-30B0-83D4-A191-058BFDEEBA7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F0952E5-050E-4AD8-BA28-F5CCAA9D08D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A215C04-30B0-83D4-A191-058BFDEEBA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A215C04-30B0-83D4-A191-058BFDEEBA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A215C04-30B0-83D4-A191-058BFDEEBA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A215C04-30B0-83D4-A191-058BFDEEBA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A215C04-30B0-83D4-A191-058BFDEEBA7C} = {1F0952E5-050E-4AD8-BA28-F5CCAA9D08D8}
+		{1F0952E5-050E-4AD8-BA28-F5CCAA9D08D8} = {EEA339DA-6B5E-0D4B-3255-BFEF95601890}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA4D8C1-7D07-5AA0-9A9A-AE78851650D1}
+	EndGlobalSection
+EndGlobal
